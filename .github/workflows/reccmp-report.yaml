@@ -9,8 +9,6 @@ on:
     paths-ignore:
       - "reccmp-report/**"
   workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
 
 permissions:
   actions: read
